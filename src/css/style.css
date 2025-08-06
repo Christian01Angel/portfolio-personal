@@ -1,0 +1,48 @@
+body{
+    background-image: url(../img/fondo-contacto.png);
+    background-size: cover;
+    width: 98%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:active{
+    color: burlywood;
+}
+
+a:hover{
+    color: gold;
+    transition: all ease-in-out .2s;
+}
+
+.item{
+    margin: auto;
+    width: 20%;
+    text-align: center;
+    font-size: large;
+}
+
+.inicio{
+    border: solid 2px red;
+    padding: 5px;
+}
+
+.descargar{
+    background-color: #E20000;
+    color: white;
+    font-size: large;
+    padding-top: 5px;
+}
+
+.descargar:hover{
+    background-color: #370a6d;
+    transition: all ease-in-out .2s;
+    color: white;
+}
