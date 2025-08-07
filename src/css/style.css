@@ -1,9 +1,11 @@
+/* Configuraciones en común a todas las paginas*/
 body{
-    background-image: url(../img/fondo-contacto.png);
+    background-image: url(../img/fondo-contacto.png); /*Fondo de pantalla del body*/
     background-size: cover;
     width: 98%;
 }
 
+/*Barra de navegación*/
 a{
     text-decoration: none;
     color: black;
@@ -54,4 +56,33 @@ a:hover{
 
 .descargar:hover span{
     color: #0496ff;
+} /*Fin barra de navegacion*/
+
+/*Comienzo de footer*/
+footer .enlace{
+    font-size: 40px;
 }
+
+footer .enlace{
+    color: black;
+}
+
+.email{
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.email:hover{
+    color: black;
+}
+
+footer .whatsapp{
+    background-color: green;
+    color: white;
+    position: fixed;
+    bottom: 30px;
+    right: 70px;
+}
+
+/* Configuraciones especifica de cada página*/
