@@ -61,15 +61,13 @@ a:hover{
 /*Comienzo de footer*/
 footer .enlace{
     font-size: 40px;
-}
-
-footer .enlace{
     color: black;
 }
 
 .email{
     color: black;
     font-weight: 600;
+    font-size: large;
     text-decoration: underline;
 }
 
@@ -86,3 +84,43 @@ footer .whatsapp{
 }
 
 /* Configuraciones especifica de cada página*/
+/*main de index.html*/
+.contenedor-imagen{
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor-imagen img{
+    width: 20%;
+    margin: auto;
+}
+
+.contenedor-imagen img:hover{
+    transform: scale(1.1);
+}
+
+.parrafo-bienvenida{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    margin: auto;
+    padding: 10px;
+    border: solid 1px white;
+}
+
+.proyectos{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    width: 17%;
+    margin: 7px auto;
+}
+
+.proyectos:hover{
+    background-color: #370a6d;
+    transition: all ease-in-out .2s;
+    color: white;
+}
